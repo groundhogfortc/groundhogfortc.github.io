@@ -2,22 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle:
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Overview of Groundhog</p>
+    <p>555 your office number</p>
+    <p>123 your address street</p>
+    <p>Your City, State 12345</p>
 
-news: false # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+news: true # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
 ---
 
-Threshold cryptosystems (TCs), developed to eliminate single points of failure in applications such as key management-as-a-service, signature schemes, encrypted data storage and even blockchain applications, rely on the assump- tion that an adversary does not corrupt more than a fixed number of nodes in a network. This assumption, once broken, can lead to the entire system being compromised.
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-In the Groundhog project, we present a systems-level solution, viz., a reboot-based framework, Groundhog, that adds a layer of resiliency on top of threshold cryptosystems; our framework ensures the system can be protected against malicious (mobile) adversaries that can corrupt up all but one device in the network. Groundhog ensures that a sufficient number of honest devices is always available to ensure the availability of the entire system.
+Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Groundhog is generalizable to multiple threshold cryptosystems — we demonstrate this by integrating it with two well-known TC protocols — the Distributed Symmetric key Encryption system (DiSE) and the Boneh, Lynn and Shacham Distributed Signatures (BLS) system.
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
